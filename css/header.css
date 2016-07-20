@@ -1,0 +1,160 @@
+@font-face {
+  font-family: FrankGothic;
+  src: url("../fonts/franklingothic-demiit-webfont.woff"); }
+@font-face {
+  font-family: PlayfairReg;
+  src: url("../fonts/PlayfairDisplay-Regular.otf"); }
+@font-face {
+  font-family: DinPro;
+  src: url("../fonts/din-pro-cond/DINPro-CondMedium.otf"); }
+body, .row {
+  max-width: 100%; }
+
+header navbar ul {
+  text-align: center; }
+  header navbar ul li {
+    display: inline-block; }
+    header navbar ul li a {
+      text-decoration: none; }
+
+header {
+  border-bottom: 8px solid #d6d7d9; }
+  header .row {
+    background-image: url("../img/gabbietransparent.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
+  header nav {
+    min-width: 100%;
+    padding-top: 0;
+    margin-top: 0;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #dedede), color-stop(1, #a5a5a5));
+    background: -webkit-linear-gradient(#dedede, #a5a5a5);
+    background: -moz-linear-gradient(#dedede, #a5a5a5);
+    background: -o-linear-gradient(#dedede, #a5a5a5);
+    background: -ms-linear-gradient(#dedede, #a5a5a5);
+    background: linear-gradient(#dedede, #a5a5a5); }
+    header nav ul {
+      text-align: center;
+      margin: 0; }
+      header nav ul li {
+        display: inline-block;
+        height: 100px;
+        line-height: 100px; }
+        header nav ul li img {
+          vertical-align: middle; }
+        header nav ul li span {
+          font-family: FrankGothic;
+          font-size: 40px;
+          text-shadow: 2px 2px 2px aliceblue; }
+  header navbar {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    header navbar ul {
+      margin: 0;
+      line-height: 4em;
+      background: rgba(0, 0, 0, 0.8); }
+      header navbar ul li {
+        padding: 0 10px; }
+        header navbar ul li a {
+          color: aliceblue;
+          font-weight: 100;
+          font-size: 1.125em; }
+          header navbar ul li a:hover {
+            color: darkgray; }
+  header .col-lg-4 {
+    padding: 0; }
+  header .article.col-lg-4 {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    padding-top: 5em;
+    /* p{
+        margin-right: 0;
+        font-family:  Georgia, Serif;
+        font-size: 1.5em;
+        line-height: 2em;
+        width:80%;
+    } */ }
+  header .header-info {
+    overflow: hidden;
+    font-size: 2.8em;
+    line-height: 1.6em;
+    list-style: none;
+    text-align: left;
+    margin-top: 0.4em;
+    margin-bottom: 0;
+    margin-left: em(20px);
+    margin-right: em(20px);
+    padding: 0;
+    padding-left: 50px; }
+    header .header-info span:nth-child(1) {
+      background: #878787;
+      /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(top, #878787, #000);
+      /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(top, #878787, #000);
+      /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(top, #878787, #000);
+      /* For Firefox 3.6 to 15 */
+      background: linear-gradient(top, #878787, #000);
+      /* Standard syntax */
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      padding-right: em(10px);
+      font-weight: bold; }
+    header .header-info span:nth-child(2) {
+      background: #878787;
+      /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(bottom, #878787, #000);
+      /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(bottom, #878787, #000);
+      /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(bottom, #878787, #000);
+      /* For Firefox 3.6 to 15 */
+      background: linear-gradient(bottom, #878787, #000);
+      /* Standard syntax */
+      color: whitesmoke;
+      padding: 0 5px; }
+    header .header-info li {
+      padding-bottom: .8em; }
+      header .header-info li:nth-last-child(1) {
+        padding-bottom: 0; }
+      header .header-info li span {
+        margin-right: .4em; }
+  header .gabbieImg {
+    overflow: hidden; }
+    header .gabbieImg img {
+      max-height: 500px;
+      max-width: 90%;
+      padding-top: 30px; }
+  header .row {
+    margin-right: 0; }
+  header .article {
+    padding-left: 7.8em;
+    padding-top: 5em; }
+  header p#articleP {
+    margin: 0 !important; }
+  header .pquote {
+    float: right;
+    width: 80%;
+    background: #ddf;
+    font-weight: bold; }
+  header blockquote {
+    text-indent: 50px;
+    margin: 0;
+    /* gets rid of the default blockquote margin */ }
+  header .pquote {
+    background: url("../img/openQuote.gif") top left no-repeat;
+    background-position: 20px -5px;
+    color: #030;
+    font-size: 26px;
+    line-height: 1.9;
+    font-style: italic;
+    padding: 13px; }
+  header blockquote {
+    margin: 0; }
+  header .pquote p:first-letter {
+    font-size: 39px;
+    font-weight: bold; }
+
+/*# sourceMappingURL=header.css.map */

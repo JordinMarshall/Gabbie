@@ -1,0 +1,12 @@
+@font-face {
+  font-family: DinPro;
+  src: url(../fonts/DINPro-CondMedium.otf); }
+#about {
+  border-top: 10px solid rgba(0, 0, 0, 0.6); }
+  #about h1 {
+    font-size: 4.375em;
+    font-family: "DinPro";
+    color: #4c4b56;
+    text-align: center; }
+
+/*# sourceMappingURL=about.css.map */

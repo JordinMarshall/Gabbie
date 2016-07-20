@@ -1,0 +1,177 @@
+@import "config";
+@import "mixins";
+
+body, .row{
+    max-width: 100%;
+}
+%nav {
+    & ul {        
+        text-align: center;
+        & li {
+            display: inline-block;
+            & a{
+                text-decoration: none;
+            }
+        }
+    }
+}
+header {
+    border-bottom: 8px solid #d6d7d9;
+    
+    & .row{ 
+        background-image: url("../img/gabbietransparent.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        //padding-top: 1em;
+    }
+    nav{
+        min-width: 100%;
+        padding-top: 0;
+        margin-top: 0;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #dedede), color-stop(1.00, #a5a5a5));    
+        background: -webkit-linear-gradient(#dedede, #a5a5a5);
+        background: -moz-linear-gradient(#dedede, #a5a5a5);
+        background: -o-linear-gradient(#dedede, #a5a5a5);
+        background: -ms-linear-gradient(#dedede, #a5a5a5);
+        background: linear-gradient(#dedede, #a5a5a5);
+
+        & ul{
+            text-align: center;
+            margin: 0;
+            & li {
+                display: inline-block;
+                height: 100px;
+                line-height: 100px; 
+                & img{
+                    vertical-align: middle;
+                }
+                & span {
+                    font-family: FrankGothic;
+                    font-size: 40px;
+                    text-shadow: 2px 2px 2px aliceblue;
+                }
+            }
+        }
+    }
+    navbar {
+        @extend %nav;
+        font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        & ul{
+            margin: 0;
+            line-height: 4em;
+            background: rgba(0,0,0,.8);
+            & li{
+                padding: 0 10px;
+                & a{
+                    color: aliceblue;
+                    font-weight:100;
+                    font-size: 1.125em;
+                    &:hover{
+                        color:darkgray;
+                    }
+                }
+            }
+        }
+    }
+    .col-lg-4{
+        padding: 0;
+    }
+    .article.col-lg-4{
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            padding-top: 5em;
+            /* p{
+                margin-right: 0;
+                font-family:  Georgia, Serif;
+                font-size: 1.5em;
+                line-height: 2em;
+                width:80%;
+            } */
+        }
+
+
+    .header-info{
+        overflow: hidden;
+        font-size: 2.8em;
+        line-height: 1.6em;
+        list-style: none;
+        //text-shadow: 2px 2px $black;
+        text-align: left;
+        @include margin-tb(.4em,0);
+        @include margin-lr(em(20px));
+        padding: 0;
+        padding-left: 50px;
+
+        & span:nth-child(1){
+           @include background-kit(top, #878787, #000);
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+            padding-right: em(10px); 
+            font-weight: bold;
+        }
+        & span:nth-child(2){
+           @include background-kit(bottom, #878787, #000);
+            color: whitesmoke;
+            padding: 0 5px;          
+        }
+        & li{
+            padding-bottom: .8em;
+            &:nth-last-child(1){
+                padding-bottom: 0;
+            }
+            & span{
+                margin-right: .4em;
+            }
+        }
+    }
+    .gabbieImg {
+        overflow: hidden;
+        img{
+            max-height: 500px;
+            max-width: 90%;
+            padding-top: 30px;
+        }
+    }
+    .row{
+        margin-right:0;
+    }
+    .article{
+       padding-left: 7.8em;
+        padding-top: 5em;
+    }
+    p#articleP{
+        margin: 0 !important;
+    }
+    .pquote {
+        float: right;
+        width: 80%;
+        background: #ddf;
+        font-weight: bold;
+    }
+
+    blockquote {
+        text-indent: 50px;
+        margin: 0; /* gets rid of the default blockquote margin */
+    }
+    .pquote {
+        //width: 200px;
+        background: url("../img/openQuote.gif") top left no-repeat;
+        background-position: 20px -5px;
+        color: #030;
+        font-size: 26px;
+        line-height: 1.9;
+        font-style: italic;
+        padding: 13px;
+    }
+
+    blockquote {
+        margin: 0;
+    }
+
+    .pquote p:first-letter {
+        font-size: 39px;
+        font-weight: bold;
+    }
+}

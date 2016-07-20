@@ -1,0 +1,113 @@
+$grid-row-width:        $grid-columns * ($grid-column-width + $grid-gutter-width) - $grid-gutter-width !default;
+$grid-fluid-column-width: percentage($grid-column-width / $grid-row-width) !default;
+$grid-fluid-gutter-width: percentage($grid-gutter-width / $grid-row-width) !default;
+
+// Functions
+// private - internal only
+// -------------------------
+@function grid-width($columns: $grid-columns, $column-width: $grid-column-width, $gutter-width: $grid-gutter-width){
+    @return ($columns * $column-width) + ($gutter-width * ($columns - 1)) + ($gutter-width * 2);
+}
+
+
+// Mixins
+// -------------------------
+
+@mixin container($min-width: $grid-min-width, $max-width: $grid-max-width, $gutter-width: $grid-fluid-gutter-width, $fluid: $grid-fluid){
+    @include box-sizing(border-box);
+    @if $fluid == true {
+        min-width: $min-width;
+        max-width: $max-width;
+    }@else{
+        width: $max-width;
+    }
+    padding-left: $gutter-width;
+    padding-right: $gutter-width;
+    margin-left: auto;
+    margin-right: auto;
+    @include clearfix;
+}
+
+@mixin grid-row(){
+    @include clearfix;
+    width: auto;
+}
+
+@mixin grid-nest(){
+    min-width: auto;
+    max-width: auto;
+    padding: 0;
+}
+
+
+@mixin grid-column($columns: 1, $column-width: $grid-column-width, $gutter-width: $grid-gutter-width) {
+    $column-width: $column-width * $columns + $gutter-width * ($columns - 1);
+    width: $column-width;
+    position: relative;
+}
+
+@mixin grid-fluid-column($columns: 1, $fluid-column-width: $grid-fluid-column-width, $fluid-gutter-width: $grid-fluid-gutter-width) {
+    $column-width: $fluid-column-width * $columns + $fluid-gutter-width * ($columns - 1);
+    width: $column-width;
+    position: relative;
+}
+
+@mixin grid-offset($columns: 1, $column-width: $grid-column-width, $gutter-width: $grid-gutter-width){
+    margin-left: grid-width($columns, $column-width, $gutter-width) + $gutter-width;
+}
+
+@mixin grid-fluid-offset($columns: 1, $fluid-column-width: $grid-fluid-column-width, $fluid-gutter-width: $grid-fluid-gutter-width){
+    margin-left: grid-width($columns, $fluid-column-width, $fluid-gutter-width) + $fluid-gutter-width;
+}
+
+@mixin grid($columns: $grid-columns, $column-width: $grid-column-width, $gutter-width: $grid-gutter-width, $prefix: $grid-class-prefix, $fluid: $grid-fluid){
+
+    @if $fluid == true {
+        //TO DO: What if I want to pass a percentage via the mixin?
+        $grid-row-width:    $columns * ($column-width + $gutter-width) - $gutter-width;
+        $column-width:      percentage($column-width / $grid-row-width);
+        $gutter-width:      percentage($gutter-width / $grid-row-width);
+    }
+    
+    @if $prefix != '' {
+        $prefix: "#{$prefix}-";
+    }
+
+    .row {
+        @include grid-row();
+    }
+    
+    .#{$prefix}container {
+        @if $fluid == true{
+            @include container;
+        }@else {
+            @include container(0, grid-width($columns, $column-width, $gutter-width), $gutter-width, $fluid);
+        }
+    }
+        
+    [class|="col"] {
+        @include box-sizing(border-box);
+        float: left;
+        margin-left: 0;
+
+        ~ [class|="col"] {
+            margin-left: $gutter-width;
+        }
+    }
+
+    @for $i from 1 through $columns {
+        .col-#{$i} {
+            @include grid-column($i, $column-width, $gutter-width)
+        }
+
+        [class|="col"] {
+            &.push-#{$i} {
+                left: grid-width($i, $column-width, $gutter-width) + $gutter-width;
+            }
+
+            &.pull-#{$i} {
+                right: grid-width($i, $column-width, $gutter-width) + $gutter-width;
+            }
+        }
+    }
+}

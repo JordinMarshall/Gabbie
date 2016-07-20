@@ -1,0 +1,257 @@
+.btn-mnd {
+  color: #ffffff;
+  background-color: #747785;
+  border-color: #130269; }
+
+.btn-mnd:hover,
+.btn-mnd:focus,
+.btn-mnd:active,
+.btn-mnd.active,
+.open .dropdown-toggle.btn-mnd, .btn-mnd.activeBut {
+  color: #ffffff;
+  background-color: #75C1FF;
+  border-color: #130269; }
+
+.btn-mnd:active,
+.btn-mnd.active,
+.open .dropdown-toggle.btn-mnd {
+  background-image: none; }
+
+.btn-mnd.disabled,
+.btn-mnd[disabled],
+fieldset[disabled] .btn-mnd,
+.btn-mnd.disabled:hover,
+.btn-mnd[disabled]:hover,
+fieldset[disabled] .btn-mnd:hover,
+.btn-mnd.disabled:focus,
+.btn-mnd[disabled]:focus,
+fieldset[disabled] .btn-mnd:focus,
+.btn-mnd.disabled:active,
+.btn-mnd[disabled]:active,
+fieldset[disabled] .btn-mnd:active,
+.btn-mnd.disabled.active,
+.btn-mnd[disabled].active,
+fieldset[disabled] .btn-mnd.active {
+  background-color: #747785;
+  border-color: #130269; }
+
+.btn-mnd .badge {
+  color: #747785;
+  background-color: #ffffff; }
+
+.btn-mnd {
+  color: #ffffff;
+  background-color: #747785;
+  border-color: #130269; }
+
+.btn-mnd:hover,
+.btn-mnd:focus,
+.btn-mnd:active,
+.btn-mnd.active,
+.open .dropdown-toggle.btn-mnd {
+  color: #ffffff;
+  background-color: #75C1FF;
+  border-color: #130269; }
+
+.btn-mnd:active,
+.btn-mnd.active,
+.open .dropdown-toggle.btn-mnd {
+  background-image: none; }
+
+.btn-mnd.disabled,
+.btn-mnd[disabled],
+fieldset[disabled] .btn-mnd,
+.btn-mnd.disabled:hover,
+.btn-mnd[disabled]:hover,
+fieldset[disabled] .btn-mnd:hover,
+.btn-mnd.disabled:focus,
+.btn-mnd[disabled]:focus,
+fieldset[disabled] .btn-mnd:focus,
+.btn-mnd.disabled:active,
+.btn-mnd[disabled]:active,
+fieldset[disabled] .btn-mnd:active,
+.btn-mnd.disabled.active,
+.btn-mnd[disabled].active,
+fieldset[disabled] .btn-mnd.active {
+  background-color: #747785;
+  border-color: #130269; }
+
+.btn-mnd .badge {
+  color: #747785;
+  background-color: #ffffff; }
+
+.btn-chp {
+  color: #ffffff;
+  background-color: #999999;
+  border-color: #000000; }
+
+.btn-chp:hover,
+.btn-chp:focus,
+.btn-chp:active,
+.btn-chp.active,
+.open .dropdown-toggle.btn-chp, .btn-chp.activeBut {
+  color: #ffffff;
+  background-color: #A92523;
+  border-color: #000000; }
+
+.btn-chp:active,
+.btn-chp.active,
+.open .dropdown-toggle.btn-chp {
+  background-image: none; }
+
+.btn-chp.disabled,
+.btn-chp[disabled],
+fieldset[disabled] .btn-chp,
+.btn-chp.disabled:hover,
+.btn-chp[disabled]:hover,
+fieldset[disabled] .btn-chp:hover,
+.btn-chp.disabled:focus,
+.btn-chp[disabled]:focus,
+fieldset[disabled] .btn-chp:focus,
+.btn-chp.disabled:active,
+.btn-chp[disabled]:active,
+fieldset[disabled] .btn-chp:active,
+.btn-chp.disabled.active,
+.btn-chp[disabled].active,
+fieldset[disabled] .btn-chp.active {
+  background-color: #999999;
+  border-color: #000000; }
+
+.btn-chp .badge {
+  color: #999999;
+  background-color: #ffffff; }
+
+#ndAvg, #cinAvg {
+  display: none; }
+
+#seasonAverages {
+  background: linear-gradient(rgba(211, 211, 211, 0.5), rgba(211, 211, 211, 0.5)), url("../gabbieHero.png");
+  background-size: cover;
+  position: relative;
+  height: 670px;
+  padding-top: 3em; }
+  #seasonAverages ul {
+    padding: 0; }
+    #seasonAverages ul li {
+      list-style: none; }
+  #seasonAverages .btn-group {
+    padding-bottom: 3em; }
+  #seasonAverages .btn-group {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto; }
+    #seasonAverages .btn-group button#cinButton:active, #seasonAverages .btn-group button#cinButton:focus {
+      background-color: crimson !important;
+      background: crimson !important;
+      color: azure; }
+    #seasonAverages .btn-group button.ndButton:active, #seasonAverages .btn-group button.ndButton:focus {
+      background-color: #3296ff !important;
+      background: #3296ff !important;
+      color: azure; }
+  #seasonAverages #accomplishments {
+    color: aliceblue; }
+  #seasonAverages .aauAvg {
+    padding-right: 8em;
+    background-color: rgba(153, 0, 0, 0.7); }
+    #seasonAverages .aauAvg h2 {
+      padding-bottom: .95em; }
+  #seasonAverages .hsAvg {
+    background-color: rgba(50, 150, 255, 0.2); }
+  #seasonAverages #ndAvg {
+    font-family: TicketbookW01-Bold; }
+    #seasonAverages #ndAvg h2 {
+      max-width: 70%;
+      margin: auto;
+      color: #fff;
+      text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.8);
+      font-family: PlayfairReg;
+      font-size: 5em; }
+      #seasonAverages #ndAvg h2:nth-child(1) {
+        line-height: 1; }
+        #seasonAverages #ndAvg h2:nth-child(1):nth-child(1) {
+          margin-top: .7em;
+          padding-bottom: 5px;
+          background: rgba(0, 0, 0, 0.2); }
+      #seasonAverages #ndAvg h2:nth-child(2) {
+        margin-top: .2em;
+        margin-bottom: 1em;
+        padding-bottom: 10px;
+        background: rgba(0, 0, 0, 0.2); }
+    #seasonAverages #ndAvg ul {
+      font-size: 2.7em;
+      padding-bottom: 3em; }
+      #seasonAverages #ndAvg ul li {
+        background: #01072b;
+        background: rgba(1, 7, 43, 0.99);
+        background: -moz-linear-gradient(45deg, rgba(1, 7, 43, 0.99) 0%, rgba(13, 53, 116, 0.99) 0%, #207ce5 74%, #207ce5 100%);
+        background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(1, 7, 43, 0.99)), color-stop(0%, rgba(13, 53, 116, 0.99)), color-stop(74%, #207ce5), color-stop(100%, #207ce5));
+        background: -webkit-linear-gradient(45deg, rgba(1, 7, 43, 0.99) 0%, rgba(13, 53, 116, 0.99) 0%, #207ce5 74%, #207ce5 100%);
+        background: -o-linear-gradient(45deg, rgba(1, 7, 43, 0.99) 0%, rgba(13, 53, 116, 0.99) 0%, #207ce5 74%, #207ce5 100%);
+        background: -ms-linear-gradient(45deg, rgba(1, 7, 43, 0.99) 0%, rgba(13, 53, 116, 0.99) 0%, #207ce5 74%, #207ce5 100%);
+        background: linear-gradient(45deg, rgba(1, 7, 43, 0.99) 0%, rgba(13, 53, 116, 0.99) 0%, #207ce5 74%, #207ce5 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01072b', endColorstr='#207ce5', GradientType=1 );
+        color: #fff;
+        width: 95%;
+        text-shadow: 2px 2px black; }
+    #seasonAverages #ndAvg .title {
+      font-size: .7em;
+      background: rgba(0, 0, 0, 0.8);
+      color: azure;
+      margin-bottom: 5px;
+      border-bottom: solid 2px aliceblue; }
+
+#cinAvg {
+  font-family: TicketbookW01-Bold; }
+  #cinAvg h2 {
+    max-width: 70%;
+    margin: auto;
+    color: #fff;
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.8);
+    font-family: PlayfairReg;
+    font-size: 5em; }
+    #cinAvg h2:nth-child(1) {
+      line-height: 1; }
+      #cinAvg h2:nth-child(1):nth-child(1) {
+        margin-top: .7em;
+        padding-bottom: 5px;
+        background: rgba(0, 0, 0, 0.2); }
+    #cinAvg h2:nth-child(2) {
+      margin-top: .2em;
+      margin-bottom: 1em;
+      padding-bottom: 10px;
+      background: rgba(0, 0, 0, 0.2); }
+  #cinAvg ul {
+    font-size: 2.7em;
+    padding-bottom: 3em; }
+    #cinAvg ul li {
+      background: #01072b;
+      background: rgba(1, 7, 43, 0.99);
+      background: -moz-linear-gradient(45deg, rgba(1, 7, 43, 0.99) 0%, rgba(191, 63, 63, 0.99) 0%, #bf3f3f 74%, #bf3f3f 100%);
+      background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(1, 7, 43, 0.99)), color-stop(0%, rgba(114, 38, 38, 0.99)), color-stop(74%, #bf3f3f), color-stop(100%, #bf3f3f));
+      background: -webkit-linear-gradient(45deg, rgba(1, 7, 43, 0.99) 0%, rgba(114, 38, 38, 0.99) 0%, #bf3f3f 74%, #bf3f3f 100%);
+      background: -o-linear-gradient(45deg, rgba(1, 7, 43, 0.99) 0%, rgba(114, 38, 38, 0.99) 0%, #bf3f3f 74%, #bf3f3f 100%);
+      background: -ms-linear-gradient(45deg, rgba(1, 7, 43, 0.99) 0%, rgba(114, 38, 38, 0.99) 0%, #bf3f3f 74%, #bf3f3f 100%);
+      background: linear-gradient(45deg, rgba(1, 7, 43, 0.99) 0%, rgba(114, 38, 38, 0.99) 0%, #bf3f3f 74%, #bf3f3f 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01072b', endColorstr='#207ce5', GradientType=1 );
+      color: #fff;
+      width: 95%;
+      text-shadow: 2px 2px black; }
+  #cinAvg .title {
+    font-size: .7em;
+    background: rgba(0, 0, 0, 0.8);
+    color: azure;
+    margin-bottom: 5px;
+    /*border-top: inset 4px white;*/
+    border-bottom: solid 2px aliceblue; }
+
+.btn.btn-mnd, .btn.btn-chp {
+  border: none;
+  border: 1px inset black !important; }
+
+button#cinButton {
+  border: none;
+  border-left: 1px inset black !important; }
+
+/*# sourceMappingURL=averages.css.map */
