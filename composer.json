@@ -9,5 +9,7 @@
             "email": "jordin.marshall@cbsinteractive.com"
         }
     ],
-    "require": {}
+    "require": {
+        "twig/twig": "~1.0"
+    }
 }
