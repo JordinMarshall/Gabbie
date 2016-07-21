@@ -1,1 +1,6 @@
+# All hidden directories
+.*
+!/.gitignore
+
+# Vendor libraries
 /vendor/
