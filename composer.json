@@ -1,0 +1,13 @@
+{
+    "name": "jordinmarshall/gabbiemarshall",
+    "description": "Website to showcase the achievements of Gabbie Marshall",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jordin Marsahll",
+            "email": "jordin.marshall@cbsinteractive.com"
+        }
+    ],
+    "require": {}
+}
