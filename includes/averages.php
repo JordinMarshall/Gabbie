@@ -1,11 +1,12 @@
     <div id="seasonAverages" class="text-center">
         <div class="btn-group" role="group" aria-label="...">
             <button type="button" class="btn btn-default btn-lg" id="accompButton">Accomplishments</button>
-            <button type="button" class="btn btn-mnd btn-lg ndButton" id="mndButton">Mt. Notre Dame</button>
+            <button type="button" class="btn btn-mnd btn-lg ndButton activeBut" id="mndButton">Mt. Notre Dame</button>
             <button type="button" class="btn btn-chp btn-lg" id="cinButton">Cincinnati Heat</button>
         </div>
         <div id="seasonContent">
         <div id="accomplishments" class="row">
+
             <div class="hsAvg col-lg-6 col-md-6 col-sm-6">
                 <h2>Mt. Notre Dame 2015-2016</h2>
                 <h4>ACCOMPLISHMENTS as starting FRESHMAN PG</h4>
@@ -21,6 +22,7 @@
             </div>
             <div class="aauAvg col-lg-6 col-md-6 col-sm-6">
                 <h2>2015 AAU Highlights</h2>
+                <h4>Cincinnati Heat Premiere</h4>
                 <ul>
                     <li>&diams; Led team to 50-8 overall vs teams 3 years older</li>
                     <li>&diams; Repeat AAU State Champions – 2nd in AAU Nationals</li>

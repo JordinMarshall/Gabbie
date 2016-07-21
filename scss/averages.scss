@@ -1,5 +1,5 @@
 @import "buttons";
-#ndAvg, #cinAvg{
+#accomplishments, #cinAvg{
     display: none;
 }
 #seasonAverages{
@@ -35,20 +35,44 @@
             color: azure;
             }
         }
-    
+    & #seasonHighlights{
+        margin: auto;
+        & ul{
+            text-align: left;
+            width: 45%;
+            margin: 0 auto; 
+            background: rgba(0,0,0,.5);
+            font-family: Lato;
+            & .odd span{
+                color:#3296ff;
+            }
+            & li{
+                font-size: 1.4em;
+                
+            }
+            
+        }
+    }
     & #accomplishments{
         color:aliceblue;
-        
+    }
+    & #accomplishments.row{
+        margin:0;
     }
     & .aauAvg{
-        padding-right: 8em;
         background-color: rgba(153, 0, 0,.7);
-        & h2{
-            padding-bottom: .95em;
+        & li{
+            font-size: 1.5em;
+            line-height: 1.7;
         }
+       
     }
     & .hsAvg{
         background-color: rgba(50,150,255,.2);
+        & li{
+            font-size: 1.5em;
+            line-height: 1.7;
+        }
     }
     #ndAvg{
         font-family: TicketbookW01-Bold;

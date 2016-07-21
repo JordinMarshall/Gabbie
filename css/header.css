@@ -42,7 +42,8 @@ header {
         height: 100px;
         line-height: 100px; }
         header nav ul li img {
-          vertical-align: middle; }
+          vertical-align: middle;
+          width: 174px; }
         header nav ul li span {
           font-family: FrankGothic;
           font-size: 40px;

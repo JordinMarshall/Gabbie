@@ -2,11 +2,29 @@
   font-family: DinPro;
   src: url(../fonts/DINPro-CondMedium.otf); }
 #about {
+  height: 600px;
   border-top: 10px solid rgba(0, 0, 0, 0.6); }
   #about h1 {
     font-size: 4.375em;
     font-family: "DinPro";
     color: #4c4b56;
     text-align: center; }
+  #about .stephPic {
+    height: 550px;
+    background-image: url("../img/gabbie.jpg");
+    background-size: 70% 100%;
+    background-repeat: no-repeat; }
+  #about .quote {
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    font-family: Lato; }
+    #about .quote h4 {
+      font-size: 1.5em;
+      line-height: 1.5;
+      text-align: center;
+      word-spacing: 5px;
+      padding-top: 40%;
+      padding-bottom: 10%; }
 
 /*# sourceMappingURL=about.css.map */

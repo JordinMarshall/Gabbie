@@ -1,22 +1,19 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/4.1.1/normalize.css">
-        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <link href="http://db.onlinewebfonts.com/c/3d748606e35b091cf3c3d6483b24cc9b?family=TicketbookW01-Bold" rel="stylesheet" type="text/css"/>
 
-        <link rel="stylesheet" href='bootstrap/css/bootstrap.min.css'>
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/averages.css">
-        <link rel="stylesheet" href="css/about.css">
-    </head>
     
     <?php include("includes/header.php"); ?>
     <?php include("includes/averages.php"); ?>
     <div id="about">
         <h1>WHO IS GABBIE MARSHALL?</h1>
+        <div class="row stephGrapphic">
+           <div class="col-lg-2"></div>
+            <div class="col-lg-4  quote">
+                <h4>My attitude is that<br> if you push me towards<br> something that you think<br> is a weakness, then I will<br> turn that perceived weakness<br> into a strength.</h4>
+                <h5>- Michael Jordan</h5>
+            </div>
+            <div class="col-lg-6 stephPic">
+                
+            </div>
+        </div>
     </div>
 
         

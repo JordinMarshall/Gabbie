@@ -1,0 +1,10 @@
+.stats .statsContainer {
+  padding-top: 2em;
+  width: 80%;
+  margin: auto; }
+.stats .freshStats .freshRows:nth-last-child(1) {
+  font-weight: bold; }
+.stats .freshStats .freshRows td {
+  text-align: center; }
+
+/*# sourceMappingURL=stats.css.map */

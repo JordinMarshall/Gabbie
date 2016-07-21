@@ -1,8 +1,23 @@
-<body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/4.1.1/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href="http://db.onlinewebfonts.com/c/3d748606e35b091cf3c3d6483b24cc9b?family=TicketbookW01-Bold" rel="stylesheet" type="text/css"/>
+
+        <link rel="stylesheet" href='bootstrap/css/bootstrap.min.css'>
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/averages.css">
+        <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/stats.css">
+    </head>
+   <body>
     <header>
        <nav>
            <ul>
-               <li><img src="img/test2.gif"></li>
+               <li><img src="img/MNDpsLogo.svg"></li>
                <li><span>Gabbie Marshall</span></li>
            </ul>
        </nav>

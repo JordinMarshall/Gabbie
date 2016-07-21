@@ -1,0 +1,17 @@
+.stats{
+     .statsContainer{
+        padding-top: 2em;
+        width:80%;
+         margin: auto;
+    }
+    & .freshStats{
+        & .freshRows{
+            &:nth-last-child(1){
+                font-weight: bold;
+            }
+            & td{
+                text-align: center;                    
+            }
+        }           
+    }
+}

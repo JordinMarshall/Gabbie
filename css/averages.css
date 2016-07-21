@@ -121,7 +121,7 @@ fieldset[disabled] .btn-chp.active {
   color: #999999;
   background-color: #ffffff; }
 
-#ndAvg, #cinAvg {
+#accomplishments, #cinAvg {
   display: none; }
 
 #seasonAverages {
@@ -150,15 +150,32 @@ fieldset[disabled] .btn-chp.active {
       background-color: #3296ff !important;
       background: #3296ff !important;
       color: azure; }
+  #seasonAverages #seasonHighlights {
+    margin: auto; }
+    #seasonAverages #seasonHighlights ul {
+      text-align: left;
+      width: 45%;
+      margin: 0 auto;
+      background: rgba(0, 0, 0, 0.5);
+      font-family: Lato; }
+      #seasonAverages #seasonHighlights ul .odd span {
+        color: #3296ff; }
+      #seasonAverages #seasonHighlights ul li {
+        font-size: 1.4em; }
   #seasonAverages #accomplishments {
     color: aliceblue; }
+  #seasonAverages #accomplishments.row {
+    margin: 0; }
   #seasonAverages .aauAvg {
-    padding-right: 8em;
     background-color: rgba(153, 0, 0, 0.7); }
-    #seasonAverages .aauAvg h2 {
-      padding-bottom: .95em; }
+    #seasonAverages .aauAvg li {
+      font-size: 1.5em;
+      line-height: 1.7; }
   #seasonAverages .hsAvg {
     background-color: rgba(50, 150, 255, 0.2); }
+    #seasonAverages .hsAvg li {
+      font-size: 1.5em;
+      line-height: 1.7; }
   #seasonAverages #ndAvg {
     font-family: TicketbookW01-Bold; }
     #seasonAverages #ndAvg h2 {
